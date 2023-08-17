@@ -6,9 +6,9 @@
     },
     "favicon": "/favicon.svg",
     "colors": {
-      "primary": "#01F56D",
+      "primary": "#00D85F",
       "light": "#04FE72",
-      "dark": "#01F56D"
+      "dark": "#01EC69"
     },
     "api": {
         "baseUrl": "http://localhost:8000"
