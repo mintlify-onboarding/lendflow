@@ -1,0 +1,36 @@
+---
+title: "Custom Workflows"
+---
+
+## Configuring Webhook Notifications
+
+To configure webhook notifications, navigate to the workflow builder template settings by clicking on the user profile in the bottom left, select the ‘workflow’ tab and click on the desired template.
+
+![](/images/1232ec8-image-20230714-201548.png)
+
+Within the workflow template, click on the blue settings cog on the right.
+
+![](/images/b8f18c3-Screen_Shot_2023-07-14_at_1.18.06_PM.png)
+
+Click on the Webhooks tab. To turn on a webhook notification, check the box next to the desired webhook and enter a url in the ‘link’ box. Optionally, to add another url ‘link’ for the same webhook (i.e. to get notified in multiple url locations), click the ‘+' icon and enter the url. Hit the ‘Save Template’ button to apply the changes.
+
+![](/images/8f59520-Screen_Shot_2023-07-14_at_1.18.33_PM.png)
+
+## Application Progress Webhooks
+
+This group is divided into two categories: Application status changes, and application stage transitions.
+
+## Application Status Change
+
+These webhooks fire whenever there has been a change in an application’s status. The application status change is not tied to a stage transition.
+
+### Application Started
+
+This webhook fires when:
+
+<Card title="The applicant completes the first screen of the widget (excluding pre-qualification screens)" icon="window" icontype="duotone">
+</Card>
+<Card title="An application is created via the API" icon="square-terminal" icontype="duotone">
+</Card>
+<Card title="An application is duplicated" icon="clone" icontype="duotone">
+</Card>

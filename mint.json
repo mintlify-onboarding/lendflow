@@ -60,11 +60,74 @@
         ]
       },
       {
-        "group": "Application Widget",
+        "group": "Webhook Configuration",
         "pages": [
-            "api-reference/application-widget/generate-plaid-docusign-and-codat-links"
+            "webhook-configuration/custom-workflows",
+            "webhook-configuration/global-workflows",
+            "webhook-configuration/verifying-webhook-authenticity"
         ]
-      }
+      },
+      {
+        "group": "Lendflow API Docs",
+        "pages": [
+            "api-reference/lendflow-validations-for-data-collection",
+            {
+              "group": "Application Widget",
+              "pages": [
+                  "api-reference/application-widget/generate-plaid-docusign-and-codat-links",
+                  "api-reference/application-widget/set-or-exchange-plaid-access-token-1",
+                  "api-reference/application-widget/save-plaid-transactions",
+                  "api-reference/application-widget/generate-temporary-links-1",
+                  "api-reference/application-widget/get-widget-templates",
+                  "api-reference/application-widget/create-widget-template",
+                  "api-reference/application-widget/get-single-widget-template",
+                  "api-reference/application-widget/update-widget-template",
+                  "api-reference/application-widget/delete-widget-template",
+                  "api-reference/application-widget/upload-widget-template-logo",
+                  "api-reference/application-widget/delete-widget-logo"
+              ]
+            },
+            {
+              "group": "Legacy",
+              "pages": [
+                  "api-reference/legacy/fetch-the-latest-plaid-transactions-for-the-passed-in-application",
+                  "api-reference/legacy/apply-for-capital",
+                  "api-reference/legacy/retrieve-applications-legacy",
+                  "api-reference/legacy/retrieve-single-application",
+                  "api-reference/legacy/get-all-offers-legacy",
+                  "api-reference/legacy/apply-for-business-credit-1",
+                  "api-reference/legacy/enrich-business-credit-application",
+                  "api-reference/legacy/create-document-verification",
+                  "api-reference/legacy/pull-application-commercial-data",
+                  "api-reference/legacy/apply-for-capital",
+                  "api-reference/legacy/create-application-with-plaid",
+                  "api-reference/legacy/retrieve-applications",
+                  "api-reference/legacy/retrieve-single-application",
+                  "api-reference/legacy/save-personal-address",
+                  "api-reference/legacy/save-business-address",
+                  "api-reference/legacy/save-piis",
+                  "api-reference/legacy/finish-application-processing",
+                  "api-reference/legacy/fetch-the-applications-bank-account-data-stored-from-plaid",
+                  "api-reference/legacy/fetch-the-latest-plaid-asset-report-for-the-passed-in-application",
+                  "api-reference/legacy/add-debt",
+                  "api-reference/legacy/update-debt",
+                  "api-reference/legacy/add-debtor",
+                  "api-reference/legacy/update-debtor",
+                  "api-reference/legacy/add-company-officer",
+                  "api-reference/legacy/update-company-officer",
+                  "api-reference/legacy/get-all-offers",
+                  "api-reference/legacy/retrieve-email-customizations",
+                  "api-reference/legacy/create-email-customization",
+                  "api-reference/legacy/retrieve-single-email-customization",
+                  "api-reference/legacy/update-email-customization",
+                  "api-reference/legacy/delete-email-customization",
+                  "api-reference/legacy/upload-email-customization-image",
+                  "api-reference/legacy/delete-logo-email-customization",
+                  "api-reference/legacy/delete-header-image-email-customization"
+              ]
+            }
+        ]
+      }  
     ],
     "footerSocials":
       {
