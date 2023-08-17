@@ -1,0 +1,75 @@
+{
+    "name": "Lendflow",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+      "primary": "#01F56D",
+      "light": "#04FE72",
+      "dark": "#01F56D"
+    },
+    "api": {
+        "baseUrl": "http://localhost:8000"
+    },
+    "feedback": {
+        "thumbsRating": true
+    },
+    "topbarCtaButton": {
+      "name": "Get a Demo",
+      "url": "https://www.lendflow.com/contact-us"
+    },
+    "topbarLinks": [
+      {
+        "name": "Login",
+        "url": "https://app.lendflow.com/login"
+      }
+    ],
+    "anchors": [
+      {
+        "name": "Quickstart Guide",
+        "icon": "play",
+        "url": "https://www.lendflow.com/quickstart-guide"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://www.lendflow.com/blog"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        }
+    ],
+    "navigation": [
+      {
+        "group": "Getting Started",
+        "pages": [
+            "getting-started/introduction",
+            "getting-started/environments",
+            {
+                "group": "Errors",
+                "pages": [
+                    "getting-started/errors/overview",
+                    "getting-started/errors/data-providers-status-messages"
+                ]
+            }
+        ]
+      },
+      {
+        "group": "Application Widget",
+        "pages": [
+            "api-reference/application-widget/generate-plaid-docusign-and-codat-links"
+        ]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/lendflowio",
+          "linkedin": "https://www.linkedin.com/company/lendflow"
+      }
+  }
+  
