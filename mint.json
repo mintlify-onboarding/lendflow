@@ -91,7 +91,7 @@
               "group": "Legacy",
               "pages": [
                   "api-reference/legacy/fetch-the-latest-plaid-transactions-for-the-passed-in-application",
-                  "api-reference/legacy/apply-for-capital",
+                  "api-reference/legacy/apply-for-capital-legacy",
                   "api-reference/legacy/retrieve-applications-legacy",
                   "api-reference/legacy/retrieve-single-application",
                   "api-reference/legacy/get-all-offers-legacy",
