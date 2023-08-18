@@ -105,7 +105,6 @@
                   "api-reference/legacy/apply-for-capital",
                   "api-reference/legacy/create-application-with-plaid",
                   "api-reference/legacy/retrieve-applications",
-                  "api-reference/legacy/retrieve-single-application",
                   "api-reference/legacy/save-personal-address",
                   "api-reference/legacy/save-business-address",
                   "api-reference/legacy/save-piis",
