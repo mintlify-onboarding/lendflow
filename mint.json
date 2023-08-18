@@ -8,7 +8,13 @@
     "colors": {
       "primary": "#00D85F",
       "light": "#04FE72",
-      "dark": "#02C659"
+      "dark": "#02C659",
+      "background": {
+        "dark": "#282B3D"
+   }
+    },
+    "modeToggle": {
+      "default": "dark"
     },
     "api": {
         "baseUrl": "http://localhost:8000"
