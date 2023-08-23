@@ -14,7 +14,7 @@
       "default": "dark"
     },
     "api": {
-        "baseUrl": "http://localhost:8000",
+        "baseUrl": "http://api.lendflow.com",
         "auth": {
           "method": "bearer"
       }
