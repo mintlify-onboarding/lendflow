@@ -66,6 +66,12 @@
         ]
       },
       {
+        "group": "Golden API Path",
+        "pages": [
+            "golden-api-path/submit-a-new-application-via-the-api"
+        ]
+      },
+      {
         "group": "Webhook Configuration",
         "pages": [
             "webhook-configuration/custom-workflows",
