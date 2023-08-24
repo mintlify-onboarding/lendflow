@@ -68,7 +68,9 @@
       {
         "group": "Golden API Path",
         "pages": [
-            "golden-api-path/submit-a-new-application-via-the-api"
+            "golden-api-path/submit-a-new-application-via-the-api",
+            "golden-api-path/golden-path-for-funder-utilize-webhook-notifications-retrieve-data-and-submit-offers",
+            "golden-api-path/golden-api-path-via-dashboard"
         ]
       },
       {
@@ -86,17 +88,17 @@
             {
               "group": "Application Widget",
               "pages": [
-                  "api-reference/application-widget/generate-plaid-docusign-and-codat-links",
-                  "api-reference/application-widget/set-or-exchange-plaid-access-token-1",
-                  "api-reference/application-widget/save-plaid-transactions",
-                  "api-reference/application-widget/generate-temporary-links-1",
-                  "api-reference/application-widget/get-widget-templates",
-                  "api-reference/application-widget/create-widget-template",
-                  "api-reference/application-widget/get-single-widget-template",
-                  "api-reference/application-widget/update-widget-template",
-                  "api-reference/application-widget/delete-widget-template",
-                  "api-reference/application-widget/upload-widget-template-logo",
-                  "api-reference/application-widget/delete-widget-logo"
+                "api-reference/application-widget/generate-plaid-docusign-and-codat-links",
+                "api-reference/application-widget/set-or-exchange-plaid-access-token",
+                "api-reference/application-widget/save-plaid-transactions",
+                "api-reference/application-widget/generate-temporary-links",
+                "api-reference/application-widget/get-widget-templates",
+                "api-reference/application-widget/create-widget-template",
+                "api-reference/application-widget/get-single-widget-template",
+                "api-reference/application-widget/update-widget-template",
+                "api-reference/application-widget/delete-widget-template",
+                "api-reference/application-widget/upload-widget-template-logo",
+                "api-reference/application-widget/delete-widget-logo"
               ]
             },
             {
@@ -135,6 +137,44 @@
                   "api-reference/legacy/upload-email-customization-image",
                   "api-reference/legacy/delete-logo-email-customization",
                   "api-reference/legacy/delete-header-image-email-customization"
+              ]
+            },
+            {
+              "group": "Attribute Builder",
+              "pages": [
+                    "api-reference/attribute-builder/add-attribute-template-custom-value"
+              ]
+            },
+            {
+              "group": "Authentication",
+              "pages": [
+                "api-reference/authentication/get-bearer-token",
+                "api-reference/authentication/get-user-details",
+                "api-reference/authentication/refresh-access-token"
+              ]
+            },
+            {
+              "group": "Data Orchestration",
+              "pages": [
+                "api-reference/data-orchestration/get-a-data-orchestration-log-for-an-application",
+                "api-reference/data-orchestration/available-data-orchestration-templates",
+                "api-reference/data-orchestration/run-data-orchestration-for-an-application",
+                "api-reference/data-orchestration/restart-data-orchestration-as-pass-outcome"
+              ]
+            },
+            {
+              "group": "Data Providers",
+              "pages": [
+                "api-reference/data-providers/experian-service-availability"
+              ]
+            },
+            {
+              "group": "Documents",
+              "pages": [
+                "api-reference/documents/upload-application-files",
+                "api-reference/documents/retrieve-all-application-files",
+                "api-reference/documents/download-a-file",
+                "api-reference/documents/download-a-zip-file-containing-all-documents-for-an-application"
               ]
             }
         ]

@@ -17,7 +17,7 @@ Refer to the webhook guide on how to configure webhooks: [Lendflow-External](/ap
 
 **Retrieve Application Data for a Single Application**
 
-To retrieve application data for a single application, use the following endpoint: [Lendflow-External](https://docs.lendflow.com/api-docs/reference/retrieveanapplicationusingworkflowbuilder).  
+To retrieve application data for a single application, use the following endpoint: [Lendflow-External](/api-reference/execute-workflow/retrieve-applications-using-workflow-builder).  
 Users must be authenticated using their API bearer token. To find the bearer token, go to the Integrations tab on the Lendflow dashboard and hit the blue ‘copy' button next to the ‘API bearer’ field to copy the value to clipboard. 
 
 ![](https://files.readme.io/e019c41-Screen_Shot_2023-02-01_at_3.56.02_PM.png "Screen Shot 2023-02-01 at 3.56.02 PM.png")
@@ -28,21 +28,15 @@ The application UUID is also required. This will be provided in the response fro
 
 **Retrieve Application Data for All Applications**
 
-To retrieve all the applications and the **application** data from Lendflow, use the following endpoint:  [Lendflow-External](https://docs.lendflow.com/api-docs/reference/retrieveanapplicationusingworkflowbuilder).
+To retrieve all the applications and the **application** data from Lendflow, use the following endpoint:  [Lendflow-External](//api-reference/lendflow-validations-for-data-collection).
 
 ## Retrieve Documents
 
 Users can turn on the ‘Any Document Uploaded’ webhook to be notified when a document is uploaded.
 
-Users can request all documents or particular document types via the API using the following endpoint [Lendflow-External](https://docs.lendflow.com/api-docs/reference/downloadazipfilecontainingalldocumentsforanapplication).  To download all documents, solely fill out the `application_id` field. To download a particular document type e.g. financial statements and offer stips, fill out the document_types field with the relevant integer e.g. `document_types[]=5&document_types[]=4`.
+Users can request all documents or particular document types via the API using the following endpoint [Lendflow-External](/api-reference/execute-workflow/fetch-all-plaid-data).  To download all documents, solely fill out the `application_id` field. To download a particular document type e.g. financial statements and offer stips, fill out the document_types field with the relevant integer e.g. `document_types[]=5&document_types[]=4`.
 
 Note every tool used to download the files will handle the download differently, but if using postman, when prompted to give a file name, add the file extension ‘.zip’ to the file name.
-
-[block:html]
-{
-  "html": "<video controls\n    src=\"https://lendflow-documentation.s3.us-west-2.amazonaws.com/GoldenPath_RetrieveDocument.mov\"\n    width=\"800\">\n\n\n</video>"
-}
-[/block]
 
 ## Retrieve Bank Account Data
 
@@ -73,7 +67,7 @@ To run a Data Orchestration automatically as soon as the deal moves into the Und
 
 For users who want to run Data Orchestration manually via the API, there is no need to use the ‘Enrich Application Data’ endpoint. Data Orchestration can be set off manually when the application is in the Application stage or any other stage. To view available, published Data Orchestration templates using the following endpoint: [Lendflow-External](https://docs.lendflow.com/api-docs/reference/availabledataorchestrationtemplates).Make a note of the Data Orchestration UUID for the template which we will use in the next endpoint.
 
-To run Data Orchestration manually on a deal via the API, use this endpoint: [Lendflow-External](https://docs.lendflow.com/api-docs/reference/rundataorchestrationforanapplication). Enter the Data Orchestration template id in the template_id field and the application uuid in the application_id field.
+To run Data Orchestration manually on a deal via the API, use this endpoint: [Lendflow-External](/api-reference/execute-workflow/fetch-all-plaid-data). Enter the Data Orchestration template id in the template_id field and the application uuid in the application_id field.
 
 ## Retrieve Data Provider Information
 
@@ -182,11 +176,11 @@ rutter
 
 ## Submitting Offers
 
-To create new offers in Lendflow via the API, use the following endpoint [Lendflow-External](https://docs.lendflow.com/api-docs/reference/createaselffundedoffer). The `application_id` and `product_id` are required fields. The accepted `product_ids` are: 
+To create new offers in Lendflow via the API, use the following endpoint [Lendflow-External](/api-reference/offers/create-a-self-funded-offer). The `application_id` and `product_id` are required fields. The accepted `product_ids` are: 
 
 `1 (ARLOC), 2 (Line of credit), 3 (Receivables Purchase), 4 (Term loan), 5 (Equipment Financing), 6 (Equipment Rental), 7 (Credit Card), 8 (Charge Card)`
 
-To view the available fields to submit, refer to this guide: [Lendflow-External](https://docs.lendflow.com/api-docs/docs/offer-field-requirements-by-products)
+To view the available fields to submit, refer to this guide: [Lendflow-External](/offers/offer-field-requirements-by-products)
 
 When specifying stips, the stips integers are:
 
@@ -194,12 +188,12 @@ When specifying stips, the stips integers are:
 
 ## Retrieving Offer Details or Funded Details
 
-If Lendflow is leading the communication with the applicant, Lendflow will notify users on the status of an offer via the following webhooks: Offer Accepted, Offer Sent, Offer Declined, Offer Retracted. In this webhook notification, Lendflow will send the `offer_id`. To locate the offer details using this `offer_id`, use the following endpoint [Lendflow-External](https://docs.lendflow.com/api-docs/reference/applicationoffers) to return the full offer details.
+If Lendflow is leading the communication with the applicant, Lendflow will notify users on the status of an offer via the following webhooks: Offer Accepted, Offer Sent, Offer Declined, Offer Retracted. In this webhook notification, Lendflow will send the `offer_id`. To locate the offer details using this `offer_id`, use the following endpoint [Lendflow-External](/api-reference/offers/application-offers) to return the full offer details.
 
 ## Updating the Offer Status
 
-If client users are leading the communication with the applicant at the offer stage, then this endpoint can be used to update the offer status [Lendflow-External](https://docs.lendflow.com/api-docs/reference/updateofferstatus).
+If client users are leading the communication with the applicant at the offer stage, then this endpoint can be used to update the offer status [Lendflow-External](/api-reference/offers/update-offer-status).
 
 ## Rejecting an Application
 
-To reject an application via the API, use the following endpoint [Lendflow-External](https://docs.lendflow.com/api-docs/reference/declineapplication). Specify the application id of the deal to be rejected and submit a reason and sub-reason. These reason fields are freeform and accept any string values.
+To reject an application via the API, use the following endpoint [Lendflow-External](/api-reference/offers/decline-current-offers). Specify the application id of the deal to be rejected and submit a reason and sub-reason. These reason fields are freeform and accept any string values.
