@@ -176,6 +176,33 @@
                 "api-reference/documents/download-a-file",
                 "api-reference/documents/download-a-zip-file-containing-all-documents-for-an-application"
               ]
+            },
+            {
+              "group": "Entity Profiles",
+              "pages": [
+                "api-reference/entity-profiles/create-new-profile",
+                "api-reference/entity-profiles/update-profile"
+              ]
+            },
+            {
+              "group": "Execute Workflow",
+              "pages": [
+                "api-reference/execute-workflow/lendflow-representative-contact-info",
+                "api-reference/execute-workflow/decline-application",
+                "api-reference/execute-workflow/get-enrichment-summary",
+                "api-reference/execute-workflow/add-application-metadata",
+                "api-reference/execute-workflow/fetch-all-plaid-data",
+                "api-reference/execute-workflow/update-the-applications-assigned-users-underwriter-analyst-etc",
+                "api-reference/execute-workflow/retrieve-applications-using-workflow-builder",
+                "api-reference/execute-workflow/submit-a-new-application-using-a-specified-workflow-template",
+                "api-reference/execute-workflow/retrieve-an-application-using-workflow-builder",
+                "api-reference/execute-workflow/update-an-application-using-workflow-builder",
+                "api-reference/execute-workflow/sample-payload--workflow",
+                "api-reference/execute-workflow/show-workflow-stages",
+                "api-reference/execute-workflow/available-workflow-builder-templates",
+                "api-reference/execute-workflow/sample-payload--workflow-template",
+                "api-reference/execute-workflow/get-integration-snippetapplication-link"
+              ]
             }
         ]
       }  
