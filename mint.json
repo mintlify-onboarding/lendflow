@@ -203,6 +203,46 @@
                 "api-reference/execute-workflow/sample-payload--workflow-template",
                 "api-reference/execute-workflow/get-integration-snippetapplication-link"
               ]
+            },
+            {
+              "group": "Offers",
+              "pages": [
+                "api-reference/offers/application-offers",
+                "api-reference/offers/decline-current-offers",
+                "api-reference/offers/create-a-self-funded-offer",
+                "api-reference/offers/update-offer",
+                "api-reference/offers/confirm-an-offer",
+                "api-reference/offers/update-offer-status"
+              ]
+            },
+            {
+              "group": "Pre-Qualification",
+              "pages": [
+                "api-reference/pre-qualification/pre-qualification",
+                "api-reference/pre-qualification/save-prequalification-record",
+                "api-reference/pre-qualification/save-application-funds",
+                "api-reference/pre-qualification/monthly-revenues"
+              ]
+            },
+            {
+              "group": "Scorecards",
+              "pages": [
+                "api-reference/scorecards/update-score-card",
+                "api-reference/scorecards/retrieve-score-card-results-by-application",
+                "api-reference/scorecards/retrieve-score-card-group-results-by-application",
+                "api-reference/scorecards/run-specific-or-all-score-cards-against-the-application",
+                "api-reference/scorecards/run-specific-or-all-score-card-groups-for-an-application",
+                "api-reference/scorecards/list-all-score-cards",
+                "api-reference/scorecards/get-specific-score-card-details"
+              ]
+            },
+            {
+              "group": "Stips",
+              "pages": [
+                "api-reference/stips/update-application-stips",
+                "api-reference/stips/get-required-stips-for-single-application",
+                "api-reference/stips/get-required-stips-for-single-offer"
+              ]
             }
         ]
       }  
