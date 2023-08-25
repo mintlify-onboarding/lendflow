@@ -89,7 +89,11 @@
             "pages": [
               "dashboard/data-orchestration/how-to-navigate-to-data-orchestration",
               "dashboard/data-orchestration/creating-a-data-orchestration-template-adding-services-attributes-and-conditional-arguments",
-              "dashboard/data-orchestration/how-to-save-a-do-template-as-a-draft-edit-the-draft-and-publish-it"
+              "dashboard/data-orchestration/how-to-save-a-do-template-as-a-draft-edit-the-draft-and-publish-it",
+              "dashboard/data-orchestration/how-to-use-data-orchestrations-navigation-tools",
+              "dashboard/data-orchestration/how-to-use-groups-for-conditional-arguments",
+              "dashboard/data-orchestration/how-to-set-manual-and-automatic-orchestration-triggers",
+              "dashboard/data-orchestration/re-pulling-data-for-a-selected-data-service"
             ]
           }
         ]
