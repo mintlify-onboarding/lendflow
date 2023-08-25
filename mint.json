@@ -93,9 +93,20 @@
               "dashboard/data-orchestration/how-to-use-data-orchestrations-navigation-tools",
               "dashboard/data-orchestration/how-to-use-groups-for-conditional-arguments",
               "dashboard/data-orchestration/how-to-set-manual-and-automatic-orchestration-triggers",
-              "dashboard/data-orchestration/re-pulling-data-for-a-selected-data-service"
+              "dashboard/data-orchestration/re-pulling-data-for-a-selected-data-service",
+              "dashboard/data-orchestration/replacing-a-data-service-block",
+              "dashboard/data-orchestration/running-all-data-blocks-in-a-do-template-regardless-of-the-outcome-status",
+              "dashboard/data-orchestration/how-to-automatically-update-ssn-within-the-application-with-the-ssn-received-from-sentilink",
+              "dashboard/data-orchestration/including-a-custom-date-range-for-ocrolus-and-plaid",
+              "dashboard/data-orchestration/handling-service-errors-with-data-orchestration"
             ]
           }
+        ]
+      },
+      {
+        "group": "Embedded Application Widget",
+        "pages": [
+          "embedded-application-widget/embedded-application-widget"
         ]
       },
       {
