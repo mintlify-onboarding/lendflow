@@ -82,6 +82,19 @@
         ]
       },
       {
+        "group": "Dashboard",
+        "pages": [
+          {
+            "group": "Data Orchestration",
+            "pages": [
+              "dashboard/data-orchestration/how-to-navigate-to-data-orchestration",
+              "dashboard/data-orchestration/creating-a-data-orchestration-template-adding-services-attributes-and-conditional-arguments",
+              "dashboard/data-orchestration/how-to-save-a-do-template-as-a-draft-edit-the-draft-and-publish-it"
+            ]
+          }
+        ]
+      },
+      {
         "group": "Lendflow API Docs",
         "pages": [
             "api-reference/lendflow-validations-for-data-collection",
