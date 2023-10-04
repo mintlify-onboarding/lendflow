@@ -48,7 +48,11 @@
         {
             "name": "API Reference",
             "url": "api-reference"
-        }
+        },
+        {
+          "name": "Changelog",
+          "url": "changelog"
+      }
     ],
     "navigation": [
       {
@@ -272,6 +276,12 @@
                 "api-reference/stips/get-required-stips-for-single-offer"
               ]
             }
+        ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog/sample"
         ]
       }  
     ],
