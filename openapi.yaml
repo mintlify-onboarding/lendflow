@@ -76384,6 +76384,3 @@ components:
       type: http
       scheme: bearer
       description: ''
-security:
-  -
-    default: []

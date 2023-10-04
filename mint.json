@@ -14,10 +14,7 @@
       "default": "dark"
     },
     "api": {
-        "baseUrl": "http://api.lendflow.com",
-        "auth": {
-          "method": "bearer"
-      }
+        "baseUrl": "http://api.lendflow.com"
     },
     "feedback": {
         "thumbsRating": true
