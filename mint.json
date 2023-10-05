@@ -26,7 +26,7 @@
     "topbarLinks": [
       {
         "name": "Login",
-        "url": "https://app.lendflow.com/login"
+        "url": "https://lendflow-enterprise.mintlify.app/"
       }
     ],
     "anchors": [
